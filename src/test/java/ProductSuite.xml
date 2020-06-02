@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Product suite" verbose="1">
+	<test name="Add_1">
+		<parameter name="ten" value="lol"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_2">
+		<parameter name="ten" value="lol"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_3">
+		<parameter name="loai" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_4">
+		<parameter name="gia" value="12000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_5">
+		<parameter name="anh" value="C://lol.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_6">
+		<parameter name="ten" value="bread"/>
+		<parameter name="loai" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_7">
+		<parameter name="ten" value="bread"/>
+		<parameter name="gia" value="20000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_8">
+		<parameter name="ten" value="bread"/>
+		<parameter name="anh" value="true.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_9">
+		<parameter name="loai" value="true"/>
+		<parameter name="gia" value="20000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_10">
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="qcert.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_11">
+		<parameter name="anh" value="sdasd.jpg"/>
+		<parameter name="gia" value="20000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_12">
+		<parameter name="ten" value="zxcvb"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="gia" value="20000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_13">
+		<parameter name="ten" value="zxcvb"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="nbvc.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_14">
+		<parameter name="ten" value="zxcvb"/>
+		<parameter name="anh" value="xcvbnb.jpg"/>
+		<parameter name="gia" value="20000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_15">
+		<parameter name="anh" value="zxcvb.jpg"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="gia" value="20000"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_16">
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_17">
+		<parameter name="ten" value="lol@#$"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_18">
+		<parameter name="ten" value="l"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_19">
+		<parameter name="ten" value="la"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_20">
+		<parameter name="ten" value="qwertyuiopasdfghjklzxcvbnmqwertyuiopasdf"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_21">
+		<parameter name="ten" value="qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfa"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_22">
+		<parameter name="ten" value="qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfdd"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_23">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000d"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_24">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="-12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_47">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12.009"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_25">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="999"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_26">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="1000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_27">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="1001"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_28">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="999998"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_29">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="999999"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_30">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="1000000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_31">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_32">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="false"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_33">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="dung"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_34">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.bmp"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_35">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.dib"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_36">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_37">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jpeg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_38">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.jfif"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_39">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.ico"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_40">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus.ico"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_41">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asus"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_42">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value=".jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_43">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value=".jpeg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_44">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asusqwertyuiopasdfghjklzxcvbnmqwertyuiopassfg.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_45">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asusqwertyuiopasdfghjklzxcdvbnmqwertyuopasdfsg.jpg"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+	<test name="Add_46">
+		<parameter name="ten" value="zczxc"/>
+		<parameter name="gia" value="12000"/>
+		<parameter name="loai" value="true"/>
+		<parameter name="anh" value="Asusqwertyuiopasdfghjklzxcvbnmqwerstyuicopcsdfg.jpg"/>
+		<classes>
+			<class name="unitTest.ProductDAOTest" />
+		</classes>
+	</test>
+	
+</suite>

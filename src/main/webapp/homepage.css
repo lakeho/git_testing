@@ -1,0 +1,272 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 24, 2019, 4:57:09 PM
+    Author     : hotua
+*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+#wrapper{
+	width: 980px;
+	height: 1825px;
+	background: #000;
+	margin: auto;
+}
+#header{
+	width: 980px;
+	height: 260px;
+	background: red;
+
+}
+#headpic{
+	width: 980px;
+	height: 260px;	
+}
+#topmenu{
+	width: 980px;
+	height: 40px;
+	background: red;
+	position: fixed;
+	z-index: 10;
+        padding-right: 15px;
+}
+#center{
+	width: 980px;
+	height: 1490px;
+	background: white;
+}
+#footer{
+	width: 980px;
+	height: 75px;
+	background: red;
+	padding-top: 9px;
+}
+#left{
+	width: 300px;
+	height: 1447px;
+	background: white;
+	float: left;
+	margin-top: 30px;
+	border: 1px solid black;
+	background-image: url('images/bg.jpg');
+}
+#qc1 img{
+    width: 298px;
+    height: 721px;
+}
+#right{
+	width:  670px;
+	height: 1447px;
+	background: white;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 1px solid black;
+	background-image: url('images/bg.jpg');
+}
+#topmenu ul li{
+	list-style: none;
+	float: left;
+}
+#topmenu ul li a{
+	line-height: 40px;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+        display: block;
+	font-weight: bold;
+	padding: 0px 15px;
+}
+#topmenu ul li a:hover{
+	background: orange;
+	color: black;
+}
+#search{
+	float: left;
+	margin-left: 30px;
+}
+#oo{
+	margin-top: 7px;
+	width: 253px;
+	height: 27px;
+	border-radius: 5px;
+}
+#ss{
+	margin-top: 7px;
+	width: 76px;
+	height: 27px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+#logbox{
+	width: 270px;
+	height: 260px;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 18px;
+	margin-left: 18px;
+	padding-top: 27px;
+	padding-left: 17px;
+}
+#remember{
+	margin-top: 5px;
+}
+#logbtn{
+	width: 230px;
+	height: 30px;
+	margin-top: 5px;
+	background-color: #D5D5D5;
+}
+#du{
+	margin-left: 18px;
+	margin-right: 18px;
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#signbox{
+	width: 270px;
+	height: 580px;
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 18px;
+	padding-top: 27px;
+	padding-left: 17px;
+}
+.nom{
+	width: 230px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+#signbtn{
+	width: 230px;
+	height: 30px;
+	margin-top: 20px;
+	background-color: #D5D5D5;
+}
+#signup p{
+	margin-bottom: 5px;
+}
+#bestseller{
+	font-size: 22px;
+	color: red;
+	font-family: tahoma;
+	margin-top: 22px;
+	margin-left: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.product{
+	width: 280px;
+	height: 350px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	float: left;
+}
+.product:hover{
+	box-shadow: 5px 5px 10px black;
+	transition:all linear 0.1s; 
+	transform:scale(1.05);
+}
+#allProducts{
+    width: 670px;
+    height: 1260px;
+}
+.pic{
+	width: 259px;
+	height: 194px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.tit{
+	font-size: 20px;
+	text-align: center;
+}
+.description{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: gray;
+}
+.ft{
+	color: white;
+	margin-left: 10px;
+}
+#capt{
+	width: 150px;
+	height: 43px;
+	border: 1px solid black;
+}
+span{
+	font-size: 12px;
+	color: red;
+}
+#ref{
+	margin-left: 10px;
+}
+#bgw{
+	width: 650px;
+	height: 400px;
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+table{
+	margin-left: 27px;
+}
+table tr td{
+	height: 30px;
+}
+.soluong{
+	border:0px;
+}
+.sess{
+	line-height: 40px;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	float: right;
+        display: block;
+        padding: 0px 15px;
+}
+.sess:hover{
+	background: orange;
+        color: black;
+}
+.paging{
+    float: left;
+    width: 20px;
+    height: 20px;
+/*    margin-right: 5px;*/
+}
+#pagings{
+    width: 670px;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 295px;
+    /*border: 1px solid black;*/
+}
+#pageDisplay{
+    margin-top: 1px;
+}
+#none{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: tahoma;
+    margin-left: 30px;
+}
+
+

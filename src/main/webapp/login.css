@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 7, 2019, 3:52:09 PM
+    Author     : hotua
+*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+#wrapper{
+	width: 980px;
+	height: 800px;
+	background: green;
+	margin: auto;
+}
+#header{
+	width: 980px;
+	height: 260px;
+	background: orange;
+
+}
+#headpic{
+	width: 980px;
+	height: 260px;	
+}
+#topmenu{
+	width: 980px;
+	height: 40px;
+	background: red;
+	position: fixed;
+	z-index: 10;
+        padding-right: 15px;
+}
+#center{
+	width: 980px;
+	height: 465px;
+	background: white;
+	padding-top: 22px;
+}
+#innerCen{
+	width: 980px;
+	height: 422px;
+	border: 1px solid black;
+	background-image: url('images/bg.jpg');
+}
+#footer{
+	width: 980px;
+	height: 75px;
+	background: red;
+	padding-top: 9px;
+}
+#topmenu ul li{
+	list-style: none;
+	float: left;
+}
+#topmenu ul li a{
+	line-height: 40px;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	padding: 0px 15px;
+}
+#topmenu ul li a:hover{
+	background: orange;
+	color: black;
+}
+#search{
+	float: left;
+	margin-left: 30px;
+}
+#oo{
+	margin-top: 7px;
+	width: 253px;
+	height: 27px;
+	border-radius: 5px;
+}
+#ss{
+	margin-top: 7px;
+	width: 76px;
+	height: 27px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+.sess{
+	line-height: 40px;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	float: right;
+        display: block;
+        padding: 0px 15px;
+}
+.sess:hover{
+	background: orange;
+        color: black;
+}
+.ft{
+	color: white;
+	margin-left: 10px;
+}
+#logbox{
+	width: 270px;
+	height: 260px;
+	background-color: white;
+	margin-top: 75px;
+	margin-left: 355px;
+	padding-top: 15px;
+	padding-left: 17px;
+	border: 1px solid gray;
+}
+#remember{
+	margin-top: 5px;
+}
+#logbtn{
+	width: 230px;
+	height: 30px;
+	background-color: #D5D5D5;
+	margin-bottom: 5px;
+}
+.nom{
+	width: 230px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+#dagnhap{
+	color: gray;
+	font-size: 22px;
+	margin-left: 50px;
+	font-family: tahoma;
+	padding-bottom: 13px;
+        font-weight: bold;
+}
+table{
+    background:white;
+}
+

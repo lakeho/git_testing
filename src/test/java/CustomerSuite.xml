@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Customer_1">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Customer_2">
+  	<parameter name="ten" value="Nguyễn Minh Châu @#$"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_3">
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_4">
+  	<parameter name="ten" value="N"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_5">
+  	<parameter name="ten" value="Ng"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_6">
+  	<parameter name="ten" value="Nqưertyuiopsadfghjklzxcvbnmqwertyuiopasdfghjklzxc"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_7">
+  	<parameter name="ten" value="Nqưertyuiopsadfgfhjklzxcvbnmqwertyuiopasdfghjklzxc"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_8">
+  	<parameter name="ten" value="Nqưertyuiopsdadfgfhjklzxcvbnmqwertyuiopasdfghjklzxc"/>
+  	<parameter name="user" value="loosepussy99"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_9">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loose"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_10">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosep"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_11">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="looseqdertyuiopasdf"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_12">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="looseqdertyuiopasdfs"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_13">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="looseqdertysduiopasdf"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_14">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="12345"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_15">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_16">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="1234567"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_17">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="1234567890qwertyuio"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_18">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="1234567890qwertyuico"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_19">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="1234567890qwertyuiozx"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_20">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_21">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="true"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_23">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0@87654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_24">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="-0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_25">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="1987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_26">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="098765432"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_27">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_28">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="09876543211"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_29">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="098765432112"/>
+  	<parameter name="addr" value="6a Wall Street"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_30">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_31">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="a"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_32">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="ab"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_33">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="NqwertyuIopsadfghjklzxcvbnmqwertyuIopaddsdfghjklzxcNqwertyuIopsadfghjklzxcvbnmqwertyuIopaddsdfghjkl"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_34">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="NqwertyuIopsadfghjklzxcvbnmqwertyuIopaddsdfghjklzxcNqwertyuIopsadfghjklzxcvbnmqwertyuIopaddsdfghjklz"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_35">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="NqwertyuIopsadfghjklzxcvbnmqwertyuIopaddsdfghjklzxcNqwertyuIopsadfghjklzxcvbnmqwertyuIopaddsdfghjklzx"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_36">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_37">
+  	<parameter name="user" value="loosepuss"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_38">
+  	<parameter name="pass" value="123456"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_39">
+  	<parameter name="sex" value="false"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_40">
+  	<parameter name="tel" value="0987654321"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_41">
+  	<parameter name="addr" value="6A Broadway"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_42">
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6A Broadway"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_43">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6A Broadway"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_44">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6A Broadway"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_45">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6A Broadway"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_46">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="addr" value="6A Broadway"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_47">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_48">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="pass" value="123456"/>
+  	<parameter name="expected" value="true"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_49">
+  	<parameter name="sex" value="false"/>
+  	<parameter name="tel" value="0987654321"/>
+  	<parameter name="addr" value="6A Broadway"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+  
+  <test name="Customer_50">
+  	<parameter name="ten" value="Nguyễn Minh Châu"/>
+  	<parameter name="user" value="loosepuss"/>
+  	<parameter name="addr" value="6A Broadway"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest"/>
+    </classes>
+  </test>
+
+</suite> <!-- Suite -->

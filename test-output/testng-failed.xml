@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Customer_2(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="0987654321"/>
+    <parameter name="ten" value="Nguyễn Minh Châu @#$"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loosepussy99"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_2(failed) -->
+  <test thread-count="5" name="Customer_9(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="0987654321"/>
+    <parameter name="ten" value="Nguyễn Minh Châu"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loose"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_9(failed) -->
+  <test thread-count="5" name="Customer_14(failed)">
+    <parameter name="pass" value="12345"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="0987654321"/>
+    <parameter name="ten" value="Nguyễn Minh Châu"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loosepuss"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_14(failed) -->
+  <test thread-count="5" name="Customer_23(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="0@87654321"/>
+    <parameter name="ten" value="Nguyễn Minh Châu"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loosepuss"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_23(failed) -->
+  <test thread-count="5" name="Customer_24(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="-0987654321"/>
+    <parameter name="ten" value="Nguyễn Minh Châu"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loosepuss"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_24(failed) -->
+  <test thread-count="5" name="Customer_25(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="1987654321"/>
+    <parameter name="ten" value="Nguyễn Minh Châu"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loosepuss"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_25(failed) -->
+  <test thread-count="5" name="Customer_26(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="sex" value="false"/>
+    <parameter name="tel" value="098765432"/>
+    <parameter name="ten" value="Nguyễn Minh Châu"/>
+    <parameter name="addr" value="6a Wall Street"/>
+    <parameter name="user" value="loosepuss"/>
+    <classes>
+      <class name="unitTest.CustomerDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="delCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="newCustomer"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- unitTest.CustomerDAOTest -->
+    </classes>
+  </test> <!-- Customer_26(failed) -->
+</suite> <!-- Failed suite [Suite] -->
